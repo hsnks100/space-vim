@@ -3,9 +3,9 @@ scriptencoding utf-8
 " nerdcommenter {
     let g:NERDSpaceDelims=1
 
-    nmap <Leader>;; <Plug>NERDCommenterToggle
-    omap <Leader>;; <Plug>NERDCommenterToggle
-    vmap <Leader>;; <Plug>NERDCommenterToggle
+    nmap _ <Plug>NERDCommenterToggle
+    omap _ <Plug>NERDCommenterToggle
+    vmap _ <Plug>NERDCommenterToggle
 " }
 
 " vim-multiple-cursors {
