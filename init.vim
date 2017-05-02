@@ -40,4 +40,10 @@ call spacevim#begin()
 
 Layer 'spacevim'
 
+Layer 'editing'
+Layer 'file-manager'
+Layer 'airline'
+Layer 'programming'
+
 call spacevim#end()
+
