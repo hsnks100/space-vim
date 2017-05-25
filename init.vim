@@ -45,6 +45,8 @@ Layer 'file-manager'
 Layer 'airline'
 Layer 'programming'
 Layer 'syntax-checking'
+Layer 'c-c++'
+Layer 'git'
 
 call spacevim#end()
 

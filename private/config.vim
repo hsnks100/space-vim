@@ -9,15 +9,25 @@ set guifont=나눔고딕코딩\ 14
 noremap YY :%y+<CR> 
 vnoremap Y "+y
 vnoremap <C-C> :"+y<CR>
-inoremap <C-V> <ESC>"+pa
+inoremap <C-V> <ESC>"+p`]o
 
 nmap <C-j> :bn<CR>
 nmap <C-k> :bp<CR>
+nnoremap <C-w><C-q> <C-W>q
 vnoremap p "_dP=`]`]
+nnoremap p p=`]`]
 nnoremap x "_x
-nnoremap <leader>d :b#<bar>bd#<CR>
-set autochdir
+vnoremap x "_x
 
+nnoremap S "_dp
+
+set norelativenumber
+
+
+
+
+
+set autochdir
 """""""""""""""""""""""""""""
 " => bufExplorer plugin
 """"""""""""""""""""""""""""""
