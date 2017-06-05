@@ -1,5 +1,8 @@
 scriptencoding=utf-8
 
+
+set fileencodings=utf-8,euc-kr
+
 nnoremap <leader>fed :e ~/.space-vim/private/config.vim<CR>
 nnoremap <leader>feR :source ~/.space-vim/private/config.vim<CR> 
 
@@ -17,11 +20,12 @@ nnoremap <C-w><C-q> <C-W>q
 vnoremap p "_dP=`]`]
 nnoremap p p=`]`]
 nnoremap x "_x
-vnoremap x "_x
+" vnoremap x "_x
 
 nnoremap S "_dp
 
 set norelativenumber
+colorscheme darkblue
 
 
 
@@ -106,3 +110,11 @@ else
     noremap <C-S-B> :wa<CR>:call Kompile()<CR><c-w>p
     " autocmd FileType cpp noremap <buffer> <F5> :call Exekute()<CR><c-w>p
 endif
+
+
+
+
+
+
+
+
